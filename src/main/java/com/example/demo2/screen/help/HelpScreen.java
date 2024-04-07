@@ -79,7 +79,7 @@ public class HelpScreen extends JFrame {
                     //---- textArea1 ----
                     textArea1.setText("회원 관리 프로그램\n" +
                             "\n" +
-                            "Git, \n" +
+                            "Git, https://github.com/infott2t/JavaSwingEX2\n" +
                             "\n" +
                             "문의 이메일: tt2t2am1118@naver.com");
                     scrollPane1.setViewportView(textArea1);
