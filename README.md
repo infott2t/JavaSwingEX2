@@ -32,7 +32,7 @@
 StartPoint.java 파일로 프로그램을 실행 할 수 있습니다.
 util.Util.java 파일에서 JDBC 파일 설정, 파일저장 위치, 메일 발송용 셋팅을 해주면 됨니다.
 
-user_info 테이블과 admin_grade_permit 테이블이 있어야합니다. domain페키지에 엔티티가 적혀져 있네요.
+user_info 테이블과 admin_grade_permit 테이블이 있어야합니다. domain패키지에 엔티티가 적혀져 있네요.
 
 
 공부해보세요. 재미있네요. 좋은 하루되세요.
