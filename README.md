@@ -24,7 +24,8 @@
 ---
 
 실제 적용하기위해서는 개인정보 관련 자격증이 있어야 하겠죠. 
-
+https://github.com/infott2t
+관련 내용 적어봤네요. 책임지지 않는 군요. 공부 목적으로 올렸습니다.
 
 또, jformdesigner를 사용해봤습니다.  I use, https://www.formdev.com/jformdesigner/.
 
