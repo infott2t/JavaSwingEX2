@@ -1,4 +1,4 @@
-# Let's safely use smartphones, etc. ; 스마트기기. 안전하게 사용합시다.
+²# Let's safely use smartphones, etc. ; 스마트기기. 안전하게 사용합시다.
 
 안전하게 생활해요~. 하고 싶은 말 적어보네요. 
 
@@ -22,6 +22,8 @@
 <p>[프로그래밍] JAVA Swing으로 CRUD만들기 3. DB 연결하기 - workbench셋팅             (https://blog.naver.com/tt2t2am1118/223387756538)</p>
 
 ---
+
+실제 적용하기위해서는 개인정보 관련 자격증이 있어야 하겠죠. 
 
 
 또, jformdesigner를 사용해봤습니다.  I use, https://www.formdev.com/jformdesigner/.
