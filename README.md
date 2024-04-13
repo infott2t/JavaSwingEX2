@@ -1,4 +1,4 @@
-²# Let's safely use smartphones, etc. ; 스마트기기. 안전하게 사용합시다.
+# Let's safely use smartphones, etc. ; 스마트기기. 안전하게 사용합시다.
 
 안전하게 생활해요~. 하고 싶은 말 적어보네요. 
 
