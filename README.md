@@ -32,6 +32,11 @@ https://github.com/infott2t
 
 ---
 
+실제 공부할 때 이 부분도 참조해보세요. SQL 테이블이 비슷하게 사용되고, 같이 만들고 있습니다.
+https://github.com/infott2t/springboot-querydsl
+
+---
+
 StartPoint.java 파일로 프로그램을 실행 할 수 있습니다.
 util.Util.java 파일에서 JDBC 파일 설정, 파일저장 위치, 메일 발송용 셋팅을 해주면 됨니다.
 
