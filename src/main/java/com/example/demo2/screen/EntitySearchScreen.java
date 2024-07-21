@@ -156,18 +156,35 @@ public class EntitySearchScreen extends JFrame {
         // JFormDesigner - End of component initialization  //GEN-END:initComponents  @formatter:on
         button1.addActionListener(e -> {
             System.out.println("button1 clicked");
-            System.out.println(dateTimePicker1.getDateTimePermissive());
-            System.out.println(dateTimePicker2.getDateTimePermissive());
-            System.out.println(dateTimePicker1.getDatePicker());
-            System.out.println(dateTimePicker2.getDatePicker());
-            System.out.println(dateTimePicker1.getTimePicker());
-            System.out.println(dateTimePicker2.getTimePicker());
 
-            System.out.println(comboBox1.getSelectedItem());
-            System.out.println(textField1.getText());
-            System.out.println(checkBox1.isSelected());
-            System.out.println(dateTimePicker1.getDatePicker()); // "" or "2024-03-22"
-            System.out.println(dateTimePicker2.getDatePicker());
+            System.out.println("1 " + dateTimePicker1.getDateTimePermissive());
+            System.out.println("2 " +dateTimePicker2.getDateTimePermissive());
+            System.out.println("3 " +dateTimePicker1.getDatePicker());
+            System.out.println("4 " +dateTimePicker2.getDatePicker());
+            System.out.println("5 " +dateTimePicker1.getTimePicker());
+            System.out.println("6 " +dateTimePicker2.getTimePicker());
+
+            System.out.println("7 " +comboBox1.getSelectedItem());
+            System.out.println("8 " +textField1.getText());
+            System.out.println("9 " +checkBox1.isSelected());
+            System.out.println("10 " +dateTimePicker1.getDatePicker()); // "" or "2024-03-22"
+            System.out.println("11 " +dateTimePicker2.getDatePicker());
+            System.out.println("12" + textField2.getText());
+
+
+            //모두 null등. 값을 입력하지 않았을때.
+            // 7,8,10,5,11,6,9 의 값이 다 없을때.
+            System.out.println("debug, " + comboBox1.getSelectedItem().equals("user_info_id"));
+            System.out.println("debug, " + textField1.getText().equals(""));
+            System.out.println("debug--, " + dateTimePicker1.getDatePicker().getText().equals(""));
+            System.out.println("debug, " + dateTimePicker1.getTimePicker().equals(""));
+            System.out.println("debug, " + dateTimePicker2.getDatePicker().equals(""));
+            System.out.println("debug, " + dateTimePicker2.getTimePicker().equals(""));
+            System.out.println("debug, " + checkBox1.isSelected());
+
+            if(comboBox1.getSelectedItem().equals("user_info_id") && textField1.getText().equals("") && dateTimePicker1.getDatePicker().getText().equals("") && dateTimePicker1.getTimePicker().getText().equals("") && dateTimePicker2.getDatePicker().getText().equals("") && dateTimePicker2.getTimePicker().getText().equals("") && !checkBox1.isSelected()) {
+                System.out.println("모두 입력하지 않았습니다.");
+            }
 
             //How do make if, about UI values: comboBox1, textField1, dateTimePicker1, dateTimePicker2 by the way Search button click.
             if(textField2.getText().isEmpty()){
