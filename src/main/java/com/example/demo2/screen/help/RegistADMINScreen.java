@@ -313,10 +313,21 @@ public class RegistADMINScreen extends JFrame {
                                 if(selectedFile !=null){
                                     //UserInfo의 마지막 id값을 구한다.
                                     UserInfoDAO userInfoDAO = new UserInfoDAO();
-                                    UserInfo userInfoId = userInfoDAO.findLastId();
-                                    long id = userInfoId.getId() + 1L;
+                                    UserInfo userInfo = null;
+                                    long id = 1L;
+                                    try{
+                                     userInfo = userInfoDAO.findLastId();
+                                     System.out.println(userInfo.getId() + " userInfoId.getId()");
+                                     id = userInfo.getId() + 1L;
+                                    }catch (Exception e2 ){
+                                        if(userInfo == null){
+                                            System.out.println("userInfo is null");
+                                            id = 1L;
 
-                                    UserInfo userInfo = new UserInfo();
+                                        }
+                                    }
+
+                                    userInfo = new UserInfo();
                                     userInfo.setId(id);
                                     userInfo.setRole("ADMIN");
                                     userInfo.setEmail(inputEmail);
