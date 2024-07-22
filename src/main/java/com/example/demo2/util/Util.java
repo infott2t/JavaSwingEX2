@@ -9,7 +9,7 @@ public class Util {
     public static final String PASSWORD = "1234";
 
 
-    // 파일 저장 위치
+    // 파일 저장 위치 : 끝에 \\를 붙여야 됨.
     public static final String dataFPath = "d:\\uploadData\\";
 
     // 문의처
