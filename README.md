@@ -13,6 +13,10 @@
 <br/>
 전에 개발했던 프로젝트, https://github.com/infott2t/JavaSwingEX
 
+<br/>
+이 프로젝트를 만들기 위한 기본이 되는 프로젝트,
+https://github.com/infott2t/springboot-querydsl
+
 ---
 
 
