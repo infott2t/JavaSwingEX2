@@ -11,7 +11,7 @@
 아직 다 완성하지는 않았고, 전의 이 프로젝트를 대신하고, 또 여기의 글들을 참조해보세요.
 
 <br/>
-전에 개발했던 프로젝트, https://github.com/infott2t/JavaSwingEX
+전에 개발했던 프로젝트, https://github.com/infott2t/JavaSwingEX.
 
 <br/>
 이 프로젝트를 만들기 위한 기본이 되는 프로젝트,
