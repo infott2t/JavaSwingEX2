@@ -15,7 +15,7 @@
 
 <br/>
 이 프로젝트를 만들기 위한 기본이 되는 프로젝트,
-https://github.com/infott2t/springboot-querydsl
+https://github.com/infott2t/springboot-querydsl. 여기에 정보시스템을 올려서 개발한 것입니다. 지금 프로젝트.
 
 ---
 
